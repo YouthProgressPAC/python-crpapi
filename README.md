@@ -20,7 +20,7 @@ simplejson >= 1.8 (not required with python 2.6, will use built in json module)
 
 To install run
 ```
-    python setup.py install
+python setup.py install
 ```
 which will install the bindings into python's site-packages directory.
 
@@ -34,12 +34,12 @@ register for one.)
 
 Import modules:
 ```    
-    >>> from crpapi import CRP, CRPApiError
+>>> from crpapi import CRP, CRPApiError
 ```
     
 And set your API key:
 ```    
-    >>> CRP.apikey = 'yr-api-key'
+>>> CRP.apikey = 'yr-api-key'
 ```
 
 See below for specific method usage. Full documentation of the methods is located here: https://www.opensecrets.org/resources/create/api_doc.php
